@@ -651,12 +651,8 @@ function handleMatchingClick(itemElement, side, key) {
     }
     
     // Create connection: selectedColAKey ➔ clickedColBKey
-    // Remove any previous connection for this A key or B key (1-to-1 matching)
-    for (const aKey in state.currentMatchingLinks) {
-      if (aKey === state.selectedColAKey || state.currentMatchingLinks[aKey] === key) {
-        delete state.currentMatchingLinks[aKey];
-      }
-    }
+    // Some official answers reuse the same Column B item for multiple Column A items.
+    delete state.currentMatchingLinks[state.selectedColAKey];
     
     state.currentMatchingLinks[state.selectedColAKey] = key;
     

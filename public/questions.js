@@ -177,33 +177,29 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Régimen"
+        "text": "Régimen alimentario"
       },
       {
         "key": "2",
-        "text": "Menú"
+        "text": "Menú cíclico"
       },
       {
         "key": "3",
-        "text": "Régimen sin residuos c. Alimentación diseñada para conserva o recuperar la salud"
+        "text": "Régimen sin residuos"
       }
     ],
     "matchingColumnB": [
       {
         "key": "a",
-        "text": "limentaria a. Preparación para tres meses"
-      },
-      {
-        "key": "c",
-        "text": "íclico"
+        "text": "Preparación para tres meses"
       },
       {
         "key": "b",
-        "text": ""
+        "text": "Diseñada para gastroenteritis"
       },
       {
-        "key": "d",
-        "text": "iseñada para gastroenteritis"
+        "key": "c",
+        "text": "Alimentación diseñada para conservar o recuperar la salud"
       }
     ],
     "answer": "1-c, 2-a, 3-b"
@@ -218,41 +214,29 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Raciones"
+        "text": "Raciones de fruta al día"
       },
       {
         "key": "2",
-        "text": "a"
-      },
-      {
-        "key": "4",
-        "text": "raciones 2.Raciones de proteína a la semana"
+        "text": "Raciones de proteína a la semana"
       },
       {
         "key": "3",
-        "text": "raciones 3.Raciones de legumbres al día"
-      },
-      {
-        "key": "5",
-        "text": "raciones"
+        "text": "Raciones de legumbres al día"
       }
     ],
     "matchingColumnB": [
       {
-        "key": "d",
-        "text": "e fruta"
-      },
-      {
         "key": "a",
-        "text": "l día a."
+        "text": "2 a 4 raciones"
       },
       {
         "key": "b",
-        "text": ""
+        "text": "3 raciones"
       },
       {
         "key": "c",
-        "text": "2-"
+        "text": "2-5 raciones"
       }
     ],
     "answer": "1-b, 2-a, 3-c"
@@ -275,29 +259,21 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Personal c. Gestionado por"
+        "text": "Personal"
       }
     ],
     "matchingColumnB": [
       {
         "key": "a",
-        "text": ""
-      },
-      {
-        "key": "c",
-        "text": "aracterísticas similares"
+        "text": "Características similares"
       },
       {
         "key": "b",
-        "text": "Posibilidad"
+        "text": "Posibilidad de limitar alimentos"
       },
       {
-        "key": "d",
-        "text": "e limitar alimentos"
-      },
-      {
-        "key": "e",
-        "text": "l área hospitalaria"
+        "key": "c",
+        "text": "Gestionado por el área hospitalaria"
       }
     ],
     "answer": "1-b, 2-a, 3-c"
@@ -312,7 +288,7 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": ""
+        "text": "Diabético"
       },
       {
         "key": "2",
@@ -320,25 +296,21 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Gastroenteritis c. Dieta sin sodio"
+        "text": "Gastroenteritis"
       }
     ],
     "matchingColumnB": [
-      {
-        "key": "d",
-        "text": "iabetico"
-      },
       {
         "key": "a",
         "text": "Dieta sin residuos"
       },
       {
         "key": "b",
-        "text": "Dieta sin"
+        "text": "Dieta sin carbohidratos"
       },
       {
         "key": "c",
-        "text": "arbohidratos"
+        "text": "Dieta sin sodio"
       }
     ],
     "answer": "1-b, 2-c, 3-a"
@@ -353,7 +325,7 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": ""
+        "text": "Entradas"
       },
       {
         "key": "2",
@@ -361,25 +333,21 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Garnituras c. Servidas a temperatura ambiente"
+        "text": "Garnituras"
       }
     ],
     "matchingColumnB": [
-      {
-        "key": "e",
-        "text": "ntradas"
-      },
       {
         "key": "a",
         "text": "Plato principal"
       },
       {
         "key": "b",
-        "text": "Acompañamiento que va"
+        "text": "Acompañamiento que va como plato fuerte"
       },
       {
         "key": "c",
-        "text": "omo plato fuerte"
+        "text": "Servidas a temperatura ambiente"
       }
     ],
     "answer": "1-c, 2-a, 3-b"
@@ -394,7 +362,7 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": ""
+        "text": "Alimentos altos en calorías"
       },
       {
         "key": "2",
@@ -402,25 +370,21 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Alimentos altos en sodio c. Hamburguesas, pizzas, tacos"
+        "text": "Alimentos altos en sodio"
       }
     ],
     "matchingColumnB": [
       {
         "key": "a",
-        "text": "limetos altos"
-      },
-      {
-        "key": "e",
-        "text": "n"
-      },
-      {
-        "key": "c",
-        "text": "alorías a. Papas a la francesa, tamales, tacos"
+        "text": "Papas a la francesa, tamales, tacos"
       },
       {
         "key": "b",
-        "text": "Embutidos, quesos maduros,"
+        "text": "Embutidos, quesos maduros"
+      },
+      {
+        "key": "c",
+        "text": "Hamburguesas, pizzas, tacos"
       }
     ],
     "answer": "1-c, 2-a, 3-b"
@@ -729,7 +693,7 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Índice"
+        "text": "Índice de Masa Corporal (IMC)"
       },
       {
         "key": "2",
@@ -737,29 +701,21 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Dinamometría manual c. Indicador antropométrico básico que talla al cuadrado."
+        "text": "Dinamometría manual"
       }
     ],
     "matchingColumnB": [
       {
-        "key": "d",
-        "text": "e Masa"
-      },
-      {
-        "key": "c",
-        "text": "orporal (IMC)"
-      },
-      {
         "key": "a",
-        "text": "Herramienta para la"
-      },
-      {
-        "key": "e",
-        "text": "stimación de las reservas de energía almacenadas como tejido adiposo subcutáneo."
+        "text": "Herramienta para la estimación de las reservas de energía almacenadas como tejido adiposo subcutáneo."
       },
       {
         "key": "b",
-        "text": "Método no invasivo estandarizado para evaluar la función y fuerza muscular periférica"
+        "text": "Método no invasivo estandarizado para evaluar la función y fuerza muscular periférica."
+      },
+      {
+        "key": "c",
+        "text": "Indicador antropométrico básico que relaciona el peso corporal total con la talla al cuadrado."
       }
     ],
     "answer": "1-c, 2-a, 3-b"
@@ -774,37 +730,29 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Nutrición"
+        "text": "Nutrición enteral"
       },
       {
         "key": "2",
-        "text": "Nutrición parenteral b. Provisión de fórmulas nutricionales a través del tracto gastrointestinal mediante el uso de sondas"
+        "text": "Nutrición parenteral"
       },
       {
         "key": "3",
-        "text": "Suplementación oral c. Administración de macronutrientes y micronutrientes directamente al torrente sanguíneo mediante un catéter venoso"
+        "text": "Suplementación oral"
       }
     ],
     "matchingColumnB": [
       {
-        "key": "e",
-        "text": "nteral"
-      },
-      {
         "key": "a",
-        "text": "Refuerzo"
-      },
-      {
-        "key": "c",
-        "text": "alórico-proteico administrado por la"
+        "text": "Refuerzo calórico-proteico administrado por la boca para complementar una dieta insuficiente."
       },
       {
         "key": "b",
-        "text": "oca para complementar una"
+        "text": "Provisión de fórmulas nutricionales a través del tracto gastrointestinal mediante el uso de sondas."
       },
       {
-        "key": "d",
-        "text": "ieta insuficiente"
+        "key": "c",
+        "text": "Administración de macronutrientes y micronutrientes directamente al torrente sanguíneo mediante un catéter venoso."
       }
     ],
     "answer": "1-b, 2-c, 3-a"
@@ -819,37 +767,29 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Proteínas"
+        "text": "Proteínas de alto valor biológico"
       },
       {
         "key": "2",
-        "text": "Carbohidratos b. Proporcionan alta densidad calórica, vehiculizan vitaminas liposolubles y modulan la respuesta inflamatoria"
+        "text": "Carbohidratos"
       },
       {
         "key": "3",
-        "text": "Lípidos c. Aportan el nitrógeno esencial para mantener el balance positivo y prevenir el desgaste del tejido magro"
+        "text": "Lípidos"
       }
     ],
     "matchingColumnB": [
       {
-        "key": "d",
-        "text": "e"
-      },
-      {
         "key": "a",
-        "text": "lto valor"
+        "text": "Actúan como la fuente principal y más rápida de energía para prevenir la gluconeogénesis a partir de aminoácidos."
       },
       {
         "key": "b",
-        "text": "iológico a. Actúan"
+        "text": "Proporcionan alta densidad calórica, vehiculizan vitaminas liposolubles y modulan la respuesta inflamatoria."
       },
       {
         "key": "c",
-        "text": "omo la fuente principal y más rápida de"
-      },
-      {
-        "key": "e",
-        "text": "nergía para prevenir la gluconeogénesis a partir de aminoácidos"
+        "text": "Aportan el nitrógeno esencial para mantener el balance positivo y prevenir el desgaste del tejido magro."
       }
     ],
     "answer": "1-c, 2-a, 3-b"
@@ -864,7 +804,7 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "MNA (Mini Nutritional"
+        "text": "MNA (Mini Nutritional Assessment)"
       },
       {
         "key": "2",
@@ -872,29 +812,21 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "NRS-2002 (Nutritional Risk Screening) c. Diseñada principalmente para identificar adultos en riesgo de malnutrición en el ámbito ambulatorio y comunitario."
+        "text": "NRS-2002 (Nutritional Risk Screening)"
       }
     ],
     "matchingColumnB": [
       {
         "key": "a",
-        "text": "ssessment) a. Utilizada"
-      },
-      {
-        "key": "e",
-        "text": "n el ámbito hospitalario general para"
-      },
-      {
-        "key": "c",
-        "text": "ruzar el estado nutricional con la gravedad"
-      },
-      {
-        "key": "d",
-        "text": "e la enfermedad"
+        "text": "Utilizada en el ámbito hospitalario general para cruzar el estado nutricional con la gravedad de la enfermedad."
       },
       {
         "key": "b",
-        "text": "Herramienta estandarizada con alta sensibilidad y especificidad para la población geriátrica mayor de 65 años"
+        "text": "Herramienta estandarizada con alta sensibilidad y especificidad para la población geriátrica mayor de 65 años."
+      },
+      {
+        "key": "c",
+        "text": "Diseñada principalmente para identificar adultos en riesgo de malnutrición en el ámbito ambulatorio y comunitario."
       }
     ],
     "answer": "1-b, 2-c, 3-a"
@@ -917,29 +849,21 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Caquexia c. Desnutrición global por déficit calórico crónico que produce emaciación extrema sin presencia de edema"
+        "text": "Caquexia"
       }
     ],
     "matchingColumnB": [
       {
         "key": "a",
-        "text": ""
-      },
-      {
-        "key": "d",
-        "text": "esnutrición proteica aguda que genera hipoalbuminemia, preservación de grasa subcutánea y"
-      },
-      {
-        "key": "e",
-        "text": "dema periférico"
+        "text": "Desnutrición proteica aguda que genera hipoalbuminemia, preservación de grasa subcutánea y edema periférico."
       },
       {
         "key": "b",
-        "text": "Síndrome multifactorial impulsado por la inflamación sistémica en enfermedades"
+        "text": "Síndrome multifactorial impulsado por la inflamación sistémica en enfermedades crónicas como el cáncer."
       },
       {
         "key": "c",
-        "text": "rónicas como el cáncer"
+        "text": "Desnutrición global por déficit calórico crónico que produce emaciación extrema sin presencia de edema."
       }
     ],
     "answer": "1-c, 2-a, 3-b"
@@ -954,7 +878,7 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": ""
+        "text": "Disfagia"
       },
       {
         "key": "2",
@@ -962,29 +886,21 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Síndrome de Dumping c. Retraso severo del vaciamiento gástrico"
+        "text": "Síndrome de Dumping"
       }
     ],
     "matchingColumnB": [
       {
-        "key": "d",
-        "text": "isfagia"
-      },
-      {
         "key": "a",
-        "text": "Tránsito intestinal acelerado post-"
-      },
-      {
-        "key": "c",
-        "text": "irugía gástrica que requiere separar líquidos de sólidos y aumentar fibra"
+        "text": "Tránsito intestinal acelerado post-cirugía gástrica que requiere separar líquidos de sólidos y aumentar fibra."
       },
       {
         "key": "b",
-        "text": "Alteración anatómica o neurológica que dificulta la deglución segura y requiere modificación de texturas"
+        "text": "Alteración anatómica o neurológica que dificulta la deglución segura y requiere modificación de texturas."
       },
       {
-        "key": "e",
-        "text": "n ausencia de obstrucción mecánica, común en diabetes de larga data"
+        "key": "c",
+        "text": "Retraso severo del vaciamiento gástrico en ausencia de obstrucción mecánica, común en diabetes de larga data."
       }
     ],
     "answer": "1-b, 2-c, 3-a"
@@ -999,41 +915,37 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": ""
+        "text": "Enfoque Reduccionista"
       },
       {
         "key": "2",
-        "text": "Enfoque Holístico / Global. b. Se"
+        "text": "Enfoque Holístico / Global"
       },
       {
         "key": "3",
-        "text": "Homeostasis Metabólica. c. Estado de equilibrio que la investigación busca recupera mediante estrategias basadas en alimentos."
+        "text": "Homeostasis Metabólica"
       },
       {
         "key": "4",
-        "text": "Enfoque Nutricional. d. Busca prevenir enfermedades."
+        "text": "Enfoque Nutricional"
       }
     ],
     "matchingColumnB": [
       {
-        "key": "e",
-        "text": "nfoque Reduccionista."
-      },
-      {
         "key": "a",
-        "text": ""
+        "text": "Busca estabilizar la homeostasis y el estado saludable de forma integral."
       },
       {
         "key": "b",
-        "text": "usca estabilizar la homeostasis y el estado saludable"
-      },
-      {
-        "key": "d",
-        "text": "e forma integral."
+        "text": "Se centra en el efecto de un solo componente sobre un único objetivo fisiológico."
       },
       {
         "key": "c",
-        "text": "entra en el efecto de un solo componente sobre un único objetivo fisiológico."
+        "text": "Estado de equilibrio que la investigación busca recuperar mediante estrategias basadas en alimentos."
+      },
+      {
+        "key": "d",
+        "text": "Busca prevenir enfermedades."
       }
     ],
     "answer": "1-b, 2-a, 3-c, 4-d"
@@ -1048,37 +960,33 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": ""
+        "text": "Compuestos Bioactivos"
       },
       {
         "key": "2",
-        "text": "Investigación"
+        "text": "Investigación en Nutrición"
       },
       {
         "key": "3",
-        "text": "Nutrigenómica/Nutrigenética. c. Campos que surgieron al reconocer que los nutrientes pueden modular mecanismos moleculares subyacentes."
+        "text": "Nutrigenómica/Nutrigenética"
       },
       {
         "key": "4",
-        "text": "Regulación metabólica y enfermedades."
+        "text": "Regulación metabólica y enfermedades"
       }
     ],
     "matchingColumnB": [
-      {
-        "key": "c",
-        "text": "ompuestos"
-      },
-      {
-        "key": "b",
-        "text": "ioactivos."
-      },
       {
         "key": "a",
         "text": "Área que investiga cómo los nutrientes optimizan procesos fisiológicos a nivel celular o molecular."
       },
       {
-        "key": "e",
-        "text": "n Nutrición. b. Sustancias que interactúan con vías metabólicas y pueden modular la salud tras ser procesadas por lamicrobiota."
+        "key": "b",
+        "text": "Sustancias que interactúan con vías metabólicas y pueden modular la salud tras ser procesadas por la microbiota."
+      },
+      {
+        "key": "c",
+        "text": "Campos que surgieron al reconocer que los nutrientes pueden modular mecanismos moleculares subyacentes."
       },
       {
         "key": "d",
@@ -1097,33 +1005,25 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Memoria"
+        "text": "Memoria del Participante"
       },
       {
         "key": "2",
-        "text": "Metodología Inexacta."
+        "text": "Metodología Inexacta"
       },
       {
         "key": "3",
-        "text": "Duración Inadecuada."
+        "text": "Duración Inadecuada"
       },
       {
         "key": "4",
-        "text": "Medición objetiva. d. Proceso de recolección de datos consistentes y cuantificables."
+        "text": "Medición objetiva"
       }
     ],
     "matchingColumnB": [
       {
-        "key": "d",
-        "text": "el Participante."
-      },
-      {
         "key": "a",
-        "text": "Puede generar sesgos y llevar al investigado a"
-      },
-      {
-        "key": "e",
-        "text": "ncontrar asociaciones existentes o erróneas."
+        "text": "Puede generar sesgos y llevar al investigado a encontrar asociaciones existentes o erróneas."
       },
       {
         "key": "b",
@@ -1132,6 +1032,10 @@ const QUESTIONS = [
       {
         "key": "c",
         "text": "Impide obtener mediciones reales de los resultados de una enfermedad a largo plazo."
+      },
+      {
+        "key": "d",
+        "text": "Proceso de recolección de datos consistentes y cuantificables."
       }
     ],
     "answer": "1-b, 2-a, 3-c, 4-d"
@@ -1146,41 +1050,37 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Transcriptómica."
+        "text": "Transcriptómica"
       },
       {
         "key": "2",
-        "text": "Fenotipado Metabólico. b. Método exitoso para evaluar patrones dietéticos y respuestas diferentes en la nutrición personalizada."
+        "text": "Fenotipado Metabólico"
       },
       {
         "key": "3",
-        "text": "Tecnologías de Alto Rendimiento."
+        "text": "Tecnologías de Alto Rendimiento"
       },
       {
         "key": "4",
-        "text": "Medición objetiva. d. Proceso de recolección de datos consistentes y cuantificables."
+        "text": "Medición objetiva"
       }
     ],
     "matchingColumnB": [
       {
         "key": "a",
-        "text": "Medición molecular a gran"
-      },
-      {
-        "key": "e",
-        "text": "scala que"
+        "text": "Medición molecular a gran escala que busca transformar la nutrición de un enfoque reduccionista a un global."
       },
       {
         "key": "b",
-        "text": "usca transformar la nutrición"
-      },
-      {
-        "key": "d",
-        "text": "e un enfoque reduccionista a un global."
+        "text": "Método exitoso para evaluar patrones dietéticos y respuestas diferentes en la nutrición personalizada."
       },
       {
         "key": "c",
         "text": "Herramienta que permite una descripción completa de la respuesta bioquímica de una investigación."
+      },
+      {
+        "key": "d",
+        "text": "Proceso de recolección de datos consistentes y cuantificables."
       }
     ],
     "answer": "1-c, 2-b, 3-a, 4-d"
@@ -1195,41 +1095,37 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Ley"
+        "text": "Ley de Moore"
       },
       {
         "key": "2",
-        "text": "Secuenciación de ADN."
+        "text": "Secuenciación de ADN"
       },
       {
         "key": "3",
-        "text": "Hallazgos Fortuitos. c. Eventos comunes en la nutrigenética actual gracias a la rápida acumulación de grandes cantidades de datos."
+        "text": "Hallazgos Fortuitos"
       },
       {
         "key": "4",
-        "text": "Evaluación de datos d. Proceso sistemático extrae información significativa."
+        "text": "Evaluación de datos"
       }
     ],
     "matchingColumnB": [
       {
-        "key": "d",
-        "text": "e Moore."
-      },
-      {
         "key": "a",
-        "text": "Supera"
-      },
-      {
-        "key": "e",
-        "text": "l análisis individual de variantes y se"
-      },
-      {
-        "key": "c",
-        "text": "onvierte en un proceso industrial asequible."
+        "text": "Supera el análisis individual de variantes y se convierte en un proceso industrial asequible."
       },
       {
         "key": "b",
         "text": "Evolución del rendimiento informático que la disminución de costos del genoma superó drásticamente."
+      },
+      {
+        "key": "c",
+        "text": "Eventos comunes en la nutrigenética actual gracias a la rápida acumulación de grandes cantidades de datos."
+      },
+      {
+        "key": "d",
+        "text": "Proceso sistemático que extrae información significativa."
       }
     ],
     "answer": "1-b, 2-a, 3-c, 4-d"
@@ -1244,45 +1140,45 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Metodologí"
+        "text": "Metodología participación"
       },
       {
         "key": "2",
-        "text": "Agentes externos."
+        "text": "Agentes externos"
       },
       {
         "key": "3",
-        "text": "Participación Comunitaria. c. Ayudan a promover la investigación para mejorar la calidad de vida de un grupo."
+        "text": "Participación Comunitaria"
       },
       {
         "key": "4",
-        "text": "Seguridad Alimentaria. d. Nutricionista que coordina políticas alimentarias en ámbitos regionales o nacionales."
+        "text": "Seguridad Alimentaria"
       },
       {
         "key": "5",
-        "text": "Coordinador Interdisciplinario. e. Premisa de garantizar tanto la cantidad como la calidad nutricional para la población."
+        "text": "Coordinador Interdisciplinario"
       }
     ],
     "matchingColumnB": [
       {
         "key": "a",
-        "text": "participación. a. Proceso pragmático"
-      },
-      {
-        "key": "d",
-        "text": "e mover a la"
-      },
-      {
-        "key": "c",
-        "text": "omunidad de una"
-      },
-      {
-        "key": "e",
-        "text": "tapa de desarrollo a la siguiente."
+        "text": "Proceso pragmático de mover a la comunidad de una etapa de desarrollo a la siguiente."
       },
       {
         "key": "b",
         "text": "Fomenta la integración comunitaria y la creación de organizaciones civiles propias."
+      },
+      {
+        "key": "c",
+        "text": "Ayudan a promover la investigación para mejorar la calidad de vida de un grupo."
+      },
+      {
+        "key": "d",
+        "text": "Nutricionista que coordina políticas alimentarias en ámbitos regionales o nacionales."
+      },
+      {
+        "key": "e",
+        "text": "Premisa de garantizar tanto la cantidad como la calidad nutricional para la población."
       }
     ],
     "answer": "1-b, 2-c, 3-a, 4-e, 5-d"
@@ -1591,7 +1487,7 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Recurso"
+        "text": "Recurso alimentario viable"
       },
       {
         "key": "2",
@@ -1599,33 +1495,29 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Sistema de vigilancia nutricional c. La potencialidad económica que puede destinarse a nivel individual o grupal para la adquisición de alimentos"
+        "text": "Sistema de vigilancia nutricional"
       },
       {
         "key": "4",
-        "text": "Disponibilidad alimentaria d. Contempla las variables que sustentan las preferencias y el simbolismo alimentario en la población."
+        "text": "Disponibilidad alimentaria"
       }
     ],
     "matchingColumnB": [
       {
         "key": "a",
-        "text": "limentario viable a. La oferta"
-      },
-      {
-        "key": "d",
-        "text": "e alimentos que a nivel individual y"
-      },
-      {
-        "key": "c",
-        "text": "olectivo representa la potencialidad de"
-      },
-      {
-        "key": "e",
-        "text": "lección del consumidor"
+        "text": "La oferta de alimentos que a nivel individual y colectivo representa la potencialidad de elección del consumidor."
       },
       {
         "key": "b",
-        "text": "Coordinarán los Programas de Vigilancia Nutricional, en colaboración con los Servicios de Higiene Alimentaria"
+        "text": "Coordinarán los Programas de Vigilancia Nutricional, en colaboración con los Servicios de Higiene Alimentaria."
+      },
+      {
+        "key": "c",
+        "text": "La potencialidad económica que puede destinarse a nivel individual o grupal para la adquisición de alimentos."
+      },
+      {
+        "key": "d",
+        "text": "Contempla las variables que sustentan las preferencias y el simbolismo alimentario en la población."
       }
     ],
     "answer": "1-c, 2-d, 3-b, 4-a"
@@ -1640,7 +1532,7 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": ""
+        "text": "Equipo de nutrición comunitaria"
       },
       {
         "key": "2",
@@ -1648,33 +1540,29 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Seguridad alimentaria c. Deben contemplar medidas que permitan optimizar la distribución y accesibilidad de los productos alimentarios"
+        "text": "Seguridad alimentaria"
       },
       {
         "key": "4",
-        "text": "Enfermedades cardiovasculares y el cáncer d. Requiere obtener información cuantitativa y cualitativa sobre indicadores nutricionales."
+        "text": "Enfermedades cardiovasculares y el cáncer"
       }
     ],
     "matchingColumnB": [
-      {
-        "key": "e",
-        "text": "quipo"
-      },
-      {
-        "key": "d",
-        "text": "e nutrición"
-      },
-      {
-        "key": "c",
-        "text": "omunitaria"
-      },
       {
         "key": "a",
         "text": "Comprende desde la presencia de alimentos variados, sanos e inocuos en los mercados durante todo el año, hasta las condiciones en las que las familias acceden a los mismos."
       },
       {
         "key": "b",
-        "text": "Son las principales causas de mortalidad en los países desarrollados"
+        "text": "Son las principales causas de mortalidad en los países desarrollados."
+      },
+      {
+        "key": "c",
+        "text": "Deben contemplar medidas que permitan optimizar la distribución y accesibilidad de los productos alimentarios."
+      },
+      {
+        "key": "d",
+        "text": "Requiere obtener información cuantitativa y cualitativa sobre indicadores nutricionales."
       }
     ],
     "answer": "1-d, 2-c, 3-a, 4-b"
@@ -1689,7 +1577,7 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Objetivo"
+        "text": "Objetivo de la nutrición comunitaria"
       },
       {
         "key": "2",
@@ -1697,33 +1585,29 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Ancianos c. Un estado nutricional adecuado en la edad evolutiva contribuye a garantizar el crecimiento y desarrollo del niño, su estado de salud y también estimula el desarrollo de hábitos alimentarios"
+        "text": "Ancianos"
       },
       {
         "key": "4",
-        "text": "Población Infantil d. Tiene como objetivo asegurar unos correctos aportes nutricionales, asumiendo aquellas modificaciones que sean necesarias en virtud de cuadros patológicos, consumo de medicamentos o necesidades especiales ."
+        "text": "Población Infantil"
       }
     ],
     "matchingColumnB": [
       {
-        "key": "d",
-        "text": "e la nutrición"
-      },
-      {
-        "key": "c",
-        "text": "omunitaria"
-      },
-      {
         "key": "a",
-        "text": "Puede facilitar"
-      },
-      {
-        "key": "e",
-        "text": "l tránsito de una alimentación equilibrada, confortable y saludable que enlace con los perfiles de la edad adulta."
+        "text": "Puede facilitar el tránsito de una alimentación equilibrada, confortable y saludable que enlace con los perfiles de la edad adulta."
       },
       {
         "key": "b",
-        "text": "Acercar el modelo alimentario disponible hacia un modelo más saludable"
+        "text": "Acercar el modelo alimentario disponible hacia un modelo más saludable."
+      },
+      {
+        "key": "c",
+        "text": "Un estado nutricional adecuado en la edad evolutiva contribuye a garantizar el crecimiento y desarrollo del niño, su estado de salud y también estimula el desarrollo de hábitos alimentarios."
+      },
+      {
+        "key": "d",
+        "text": "Tiene como objetivo asegurar unos correctos aportes nutricionales, asumiendo aquellas modificaciones que sean necesarias en virtud de cuadros patológicos, consumo de medicamentos o necesidades especiales."
       }
     ],
     "answer": "1-b, 2-a, 3-d, 4-c"
@@ -1738,41 +1622,37 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "La"
+        "text": "La dimensión biológica"
       },
       {
         "key": "2",
-        "text": "La dimensión social b. Proporcionar a la gente los medios necesarios para mejorar su salud y alcanzar un mayor control sobre la misma."
+        "text": "La dimensión social"
       },
       {
         "key": "3",
-        "text": "La dimensión ambiental c. Proceso mediante el cual el ser humano transformaba los alimentos que consumía con el único fin de obtener energía y así poder realizar sus actividades diarias"
+        "text": "La dimensión ambiental"
       },
       {
         "key": "4",
-        "text": "Atención Primaria de Salud en Alma Ata (1977) d. Tienen una influencia muy grande sobre lo que come la gente, cómo preparan sus alimentos, sus prácticas alimentarias y los alimentos que prefieren"
+        "text": "Atención Primaria de Salud en Alma Ata (1977)"
       }
     ],
     "matchingColumnB": [
       {
-        "key": "d",
-        "text": "imensión"
+        "key": "a",
+        "text": "Repercuten en la producción de alimentos ya que en algunas zonas del planeta el curso de las estaciones de año se ha modificado provocando largos períodos de sequías o lluvias exageradas."
       },
       {
         "key": "b",
-        "text": "iológica"
-      },
-      {
-        "key": "a",
-        "text": "Repercuten"
-      },
-      {
-        "key": "e",
-        "text": "n la producción de alimentos ya que en algunas zonas del planeta el"
+        "text": "Proporcionar a la gente los medios necesarios para mejorar su salud y alcanzar un mayor control sobre la misma."
       },
       {
         "key": "c",
-        "text": "urso de las estaciones de año se ha modificado provocando largos períodos de sequías o bien lluvias exageradas."
+        "text": "Proceso mediante el cual el ser humano transformaba los alimentos que consumía con el único fin de obtener energía y así poder realizar sus actividades diarias."
+      },
+      {
+        "key": "d",
+        "text": "Tienen una influencia muy grande sobre lo que come la gente, cómo preparan sus alimentos, sus prácticas alimentarias y los alimentos que prefieren."
       }
     ],
     "answer": "1-c, 2-d, 3-a, 4-b"
@@ -1795,33 +1675,29 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Formación para la participación c. Que la comunidad aprenda a identificar su realidad social vinculada a la salud y la alimentación, el diseño de proyectos comunitarios viables y factibles de a ser desarrollados por ellos mismos"
+        "text": "Formación para la participación"
       },
       {
         "key": "4",
-        "text": "Educación alimentaria y nutricional d. Se brinda las herramientas que les permitan mejorar la alimentación y nutrición en la familia y la comunidad, con los recursos disponibles."
+        "text": "Educación alimentaria y nutricional"
       }
     ],
     "matchingColumnB": [
       {
         "key": "a",
-        "text": "Se analiza"
-      },
-      {
-        "key": "e",
-        "text": "l"
-      },
-      {
-        "key": "d",
-        "text": "esarrollo del proyecto, se verifica la"
-      },
-      {
-        "key": "c",
-        "text": "alidad de la información que se está transfiriendo y se ajusta en la ejecución las acciones en desarrollo."
+        "text": "Se analiza el desarrollo del proyecto, se verifica la calidad de la información que se está transfiriendo y se ajusta en la ejecución las acciones en desarrollo."
       },
       {
         "key": "b",
         "text": "Deben detectar y atender a los niños en riesgo de malnutrición."
+      },
+      {
+        "key": "c",
+        "text": "Que la comunidad aprenda a identificar su realidad social vinculada a la salud y la alimentación, el diseño de proyectos comunitarios viables y factibles de ser desarrollados por ellos mismos."
+      },
+      {
+        "key": "d",
+        "text": "Se brinda las herramientas que les permitan mejorar la alimentación y nutrición en la familia y la comunidad, con los recursos disponibles."
       }
     ],
     "answer": "1-b, 2-a, 3-c, 4-d"
@@ -1844,33 +1720,29 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Programas en zonas urbanas c. Tiene como áreas de acción fortalecer la participación comunitaria, la alimentación, la seguridad alimentaria y la educación en nutrición y salud."
+        "text": "Programas en zonas urbanas"
       },
       {
         "key": "4",
-        "text": "Programa de nutrición comunitaria d. La integración optimiza la efectividad de las estrategias de evaluación e intervención, y favorece la sostenibilidad de los programas a mediano y largo plazo."
+        "text": "Programa de nutrición comunitaria"
       }
     ],
     "matchingColumnB": [
       {
         "key": "a",
-        "text": ""
-      },
-      {
-        "key": "e",
-        "text": "sta es ejecutada por proyectos, financiado por instituciones y empresas"
-      },
-      {
-        "key": "c",
-        "text": "on la finalidad"
-      },
-      {
-        "key": "d",
-        "text": "e contribuir a mejorar la alimentación y nutrición en el hogar, la escuela y la comunidad."
+        "text": "Esta es ejecutada por proyectos, financiado por instituciones y empresas con la finalidad de contribuir a mejorar la alimentación y nutrición en el hogar, la escuela y la comunidad."
       },
       {
         "key": "b",
         "text": "Su orientación es promover y fortalecer capacidades y actitudes de las personas y formarlas como multiplicadores en zonas de fácil acceso."
+      },
+      {
+        "key": "c",
+        "text": "Tiene como áreas de acción fortalecer la participación comunitaria, la alimentación, la seguridad alimentaria y la educación en nutrición y salud."
+      },
+      {
+        "key": "d",
+        "text": "La integración optimiza la efectividad de las estrategias de evaluación e intervención, y favorece la sostenibilidad de los programas a mediano y largo plazo."
       }
     ],
     "answer": "1-d, 2-a, 3-b, 4-c"
@@ -2361,37 +2233,37 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": ""
+        "text": "Dieta blanda"
       },
       {
         "key": "2",
-        "text": "Dieta para paciente diabético b. Baja"
+        "text": "Dieta para paciente diabético"
       },
       {
         "key": "3",
-        "text": "Dieta renal c. Con texturas suaves y fáciles de digerir, recomendada para pacientes con problemas gastrointestinales."
+        "text": "Dieta renal"
+      },
+      {
+        "key": "4",
+        "text": "Dieta cardioprotectora"
       }
     ],
     "matchingColumnB": [
       {
-        "key": "d",
-        "text": "ieta"
+        "key": "a",
+        "text": "Adaptada para pacientes con problemas renales, con restricción de sodio y proteínas."
       },
       {
         "key": "b",
-        "text": "landa"
-      },
-      {
-        "key": "a",
-        "text": "Adaptada para pacientes"
+        "text": "Baja en grasas saturadas y colesterol, indicada para problemas cardiovasculares."
       },
       {
         "key": "c",
-        "text": "on problemas renales, con restricción de sodio y proteínas"
+        "text": "Con texturas suaves y fáciles de digerir, recomendada para pacientes con problemas gastrointestinales."
       },
       {
-        "key": "e",
-        "text": "n grasas saturadas y colesterol, indicada para problemas cardiovasculares"
+        "key": "d",
+        "text": "Adaptada para pacientes diabéticos, con control de carbohidratos y azúcares."
       }
     ],
     "answer": "1-c, 2-d, 3-a, 4-b"
@@ -2406,11 +2278,11 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Harina y"
+        "text": "Harina y aceite"
       },
       {
         "key": "2",
-        "text": "Agua y"
+        "text": "Agua y electricidad"
       },
       {
         "key": "3",
@@ -2424,23 +2296,11 @@ const QUESTIONS = [
     "matchingColumnB": [
       {
         "key": "a",
-        "text": "ceite a."
-      },
-      {
-        "key": "c",
-        "text": "osto indirecto"
-      },
-      {
-        "key": "e",
-        "text": "lectricidad"
+        "text": "Costo indirecto"
       },
       {
         "key": "b",
-        "text": "Costo"
-      },
-      {
-        "key": "d",
-        "text": "irecto."
+        "text": "Costo directo"
       }
     ],
     "answer": "1-b, 2-a, 3-b, 4-b"
@@ -2455,7 +2315,7 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Planilla"
+        "text": "Planilla de menús"
       },
       {
         "key": "2",
@@ -2463,33 +2323,29 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Hoja de"
+        "text": "Hoja de existencias"
       },
       {
         "key": "4",
-        "text": ""
+        "text": "Checklist HACCP"
       }
     ],
     "matchingColumnB": [
       {
-        "key": "d",
-        "text": "e menús"
-      },
-      {
-        "key": "e",
-        "text": "xistencias"
-      },
-      {
-        "key": "c",
-        "text": "hecklist HACCP"
-      },
-      {
         "key": "a",
-        "text": "Controlar el ingreso y salida de insumos almacenados"
+        "text": "Controlar el ingreso y salida de insumos almacenados."
       },
       {
         "key": "b",
-        "text": "Planificar comidas considerando nutrición y disponibilidad c. Verificar el cumplimiento de normas de seguridad alimentaria d. Monitorear condiciones de almacenamiento y preparación"
+        "text": "Planificar comidas considerando nutrición y disponibilidad."
+      },
+      {
+        "key": "c",
+        "text": "Verificar el cumplimiento de normas de seguridad alimentaria."
+      },
+      {
+        "key": "d",
+        "text": "Monitorear condiciones de almacenamiento y preparación."
       }
     ],
     "answer": "1-b, 2-d, 3-a, 4-c"
@@ -2504,7 +2360,7 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Servicio"
+        "text": "Servicio aeroportuario"
       },
       {
         "key": "2",
@@ -2512,33 +2368,29 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Servicio de"
+        "text": "Servicio de catering empresarial"
       },
       {
         "key": "4",
-        "text": "Servicio geriátrico d. Personas mayores en residencias o centros de cuidado"
+        "text": "Servicio geriátrico"
       }
     ],
     "matchingColumnB": [
       {
         "key": "a",
-        "text": "eroportuario a."
-      },
-      {
-        "key": "e",
-        "text": "studiantes y personal educativo"
+        "text": "Estudiantes y personal educativo."
       },
       {
         "key": "b",
-        "text": "pasajeros y personal"
-      },
-      {
-        "key": "d",
-        "text": "e aeropuertos"
+        "text": "Pasajeros y personal de aeropuertos."
       },
       {
         "key": "c",
-        "text": "atering empresarial c. Trabajadores de empresas durante jornadas laborales"
+        "text": "Trabajadores de empresas durante jornadas laborales."
+      },
+      {
+        "key": "d",
+        "text": "Personas mayores en residencias o centros de cuidado."
       }
     ],
     "answer": "1-b, 2-a, 3-c, 4-d"
@@ -2553,7 +2405,7 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": ""
+        "text": "Compra"
       },
       {
         "key": "2",
@@ -2561,33 +2413,29 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Almacenamiento c. Distribuir insumos a las áreas de preparación según necesidades"
+        "text": "Almacenamiento"
       },
       {
         "key": "4",
-        "text": "Despacho d. Conservar productos en condiciones"
+        "text": "Despacho"
       }
     ],
     "matchingColumnB": [
       {
-        "key": "c",
-        "text": "ompra"
-      },
-      {
         "key": "a",
-        "text": "Verificar calidad, cantidad y"
-      },
-      {
-        "key": "e",
-        "text": "stado"
-      },
-      {
-        "key": "d",
-        "text": "e los productos recibidos"
+        "text": "Verificar calidad, cantidad y estado de los productos recibidos."
       },
       {
         "key": "b",
-        "text": "Elegir proveedores y negociar condiciones de adquisición"
+        "text": "Elegir proveedores y negociar condiciones de adquisición."
+      },
+      {
+        "key": "c",
+        "text": "Distribuir insumos a las áreas de preparación según necesidades."
+      },
+      {
+        "key": "d",
+        "text": "Conservar productos en condiciones adecuadas."
       }
     ],
     "answer": "1-b, 2-a, 3-d, 4-c"
@@ -2602,7 +2450,7 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Lavado"
+        "text": "Lavado de manos"
       },
       {
         "key": "2",
@@ -2610,33 +2458,29 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Desinfección de utensilios c. Reducir la transmisión de gérmenes desde el personal a los alimentos"
+        "text": "Desinfección de utensilios"
       },
       {
         "key": "4",
-        "text": "Control de fechas de vencimiento d. Evitar el consumo de productos en mal estado"
+        "text": "Control de fechas de vencimiento"
       }
     ],
     "matchingColumnB": [
       {
-        "key": "d",
-        "text": "e manos"
-      },
-      {
         "key": "a",
-        "text": "Prevenir"
-      },
-      {
-        "key": "c",
-        "text": "ontaminación cruzada alimentos crudos y cocidos"
+        "text": "Prevenir contaminación cruzada entre alimentos crudos y cocidos."
       },
       {
         "key": "b",
-        "text": ""
+        "text": "Eliminar microorganismos de superficies y equipos."
       },
       {
-        "key": "e",
-        "text": "liminar microorganismos de superficies y equipos"
+        "key": "c",
+        "text": "Reducir la transmisión de gérmenes desde el personal a los alimentos."
+      },
+      {
+        "key": "d",
+        "text": "Evitar el consumo de productos en mal estado."
       }
     ],
     "answer": "1-c, 2-a, 3-b, 4-d"
@@ -2651,7 +2495,7 @@ const QUESTIONS = [
     "matchingColumnA": [
       {
         "key": "1",
-        "text": "Porcentaje"
+        "text": "Porcentaje de desperdicio"
       },
       {
         "key": "2",
@@ -2659,29 +2503,29 @@ const QUESTIONS = [
       },
       {
         "key": "3",
-        "text": "Índice de quejas c. Eficiencia del proceso de cocina calidad, seguridad o servicio"
+        "text": "Índice de quejas"
+      },
+      {
+        "key": "4",
+        "text": "Puntuación de encuestas"
       }
     ],
     "matchingColumnB": [
       {
-        "key": "d",
-        "text": "e desperdicio"
-      },
-      {
         "key": "a",
-        "text": "Nivel de satisfacción de los usuarios"
-      },
-      {
-        "key": "c",
-        "text": "on"
-      },
-      {
-        "key": "e",
-        "text": "l servicio"
+        "text": "Nivel de satisfacción de los usuarios con el servicio."
       },
       {
         "key": "b",
         "text": "Cantidad de alimentos que no se utilizan o se desechan."
+      },
+      {
+        "key": "c",
+        "text": "Eficiencia del proceso de cocina."
+      },
+      {
+        "key": "d",
+        "text": "Número de reclamos relacionados con calidad, seguridad o servicio."
       }
     ],
     "answer": "1-b, 2-c, 3-d, 4-a"
