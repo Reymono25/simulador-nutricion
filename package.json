@@ -1,0 +1,17 @@
+{
+  "name": "simulador-nutricionista-1",
+  "version": "1.0.0",
+  "description": "Simulador interactivo para examen de Nutricionista 1 - 101 preguntas oficiales",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build:questions": "node ../temp_parser/parse_nutricion_questions.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
