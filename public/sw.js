@@ -2,7 +2,7 @@
 // SERVICE WORKER - NutriSim PWA
 // Versión del caché — incrementar para forzar actualización
 // ==========================================================================
-const CACHE_NAME = 'nutrisim-v1';
+const CACHE_NAME = 'nutrisim-v2';
 
 // Archivos a cachear para uso offline completo
 const ASSETS_TO_CACHE = [
