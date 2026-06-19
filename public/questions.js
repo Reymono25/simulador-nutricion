@@ -597,7 +597,7 @@ const QUESTIONS = [
     ],
     "matchingColumnA": [],
     "matchingColumnB": [],
-    "answer": "Verdadero"
+    "answer": "Falso"
   },
   {
     "id": 27,
@@ -667,7 +667,7 @@ const QUESTIONS = [
     ],
     "matchingColumnA": [],
     "matchingColumnB": [],
-    "answer": "Falso"
+    "answer": "Verdadero"
   },
   {
     "id": 32,
@@ -1405,7 +1405,7 @@ const QUESTIONS = [
     ],
     "matchingColumnA": [],
     "matchingColumnB": [],
-    "answer": "Falso"
+    "answer": "Verdadero"
   },
   {
     "id": 54,
@@ -1433,7 +1433,7 @@ const QUESTIONS = [
     ],
     "matchingColumnA": [],
     "matchingColumnB": [],
-    "answer": "Verdadero"
+    "answer": "Falso"
   },
   {
     "id": 56,
